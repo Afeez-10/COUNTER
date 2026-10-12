@@ -1,0 +1,59 @@
+body{
+  height: 1em;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2eff;
+  margin-top: 100%;
+  margin-bottom: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.count-paragraph,
+.high-paragraph{
+  font-size: 50px;
+  font-weight: 700;
+  color: yellow;
+  margin-bottom: 15px;
+}
+.number-count,
+.high-count{
+  font-size: 75px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+.adder,
+.subtracter,
+.resetter,
+.high-resetter{
+  border: 2px solid yellow;
+  border-radius: 45px;
+  height: 100px;
+  flex: 1;
+  margin: 7px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.adder,
+.subtracter{
+  background-color: yellow;
+}
+.resetter,
+.high-resetter{
+  background-color: red;
+}
+.high-paragraph{
+  margin-bottom: 5px;
+}
+.high-count{
+  margin-top: 0;
+}
